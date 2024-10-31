@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kino.MainPage">
+    
+    <FlexLayout>
+        
+        <VerticalStackLayout>
+            <HorizontalStackLayout Margin="10"  BackgroundColor="LightGray" WidthRequest="1000" HeightRequest="100">
+                <Image WidthRequest="60" Margin="10,0,0,0" HeightRequest="90" Aspect="AspectFill" Source="zdj1.png">
+
+                </Image>
+                <VerticalStackLayout  >
+                    <Label Padding="0,30,0,0" WidthRequest="200" HeightRequest="50" FontSize="17" Text="TERRIFIER 3"></Label>
+                    <Label Padding="0,0,0,0" WidthRequest="200" HeightRequest="50">HORROR Nie dla dzieci</Label>
+                </VerticalStackLayout>
+
+                <Label WidthRequest="100" BackgroundColor="DarkRed" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White" HeightRequest="50">PREMIERA</Label>
+                <Label BackgroundColor="Gray" TextColor="White" Margin="100,0,0,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="100" HeightRequest="50">18:30-19:55</Label>
+                <Button  HeightRequest="40" WidthRequest="100" Margin="100,0,0,0" Text="KupBilet" Clicked="OnCounterClicked">
+                  
+                </Button>
+                <Button  HeightRequest="40" WidthRequest="100" Margin="100,0,0,0" Text="UsunBilet" Clicked="OnCounterClicked2"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10"  BackgroundColor="LightGray" WidthRequest="1000" HeightRequest="100">
+                <Image WidthRequest="60" Margin="10,0,0,0" HeightRequest="90" Aspect="AspectFill" Source="zdj2.png">
+
+                </Image>
+                <VerticalStackLayout  >
+                    <Label Padding="0,30,0,0" WidthRequest="200" HeightRequest="50" FontSize="17" Text="TERRIFIER 2"></Label>
+                    <Label Padding="0,0,0,0" WidthRequest="200" HeightRequest="50">HORROR Nie dla dzieci</Label>
+                </VerticalStackLayout>
+
+                <Label WidthRequest="100" BackgroundColor="DarkRed" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White" HeightRequest="50">PREMIERA</Label>
+                <Label BackgroundColor="Gray" TextColor="White" Margin="100,0,0,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="100" HeightRequest="50">20:30-21:45</Label>
+                <Button  HeightRequest="40" WidthRequest="100" Margin="100,0,0,0" Text="KupBilet" Clicked="OnCounterClicked"></Button>
+                <Button  HeightRequest="40" WidthRequest="100" Margin="100,0,0,0" Text="UsunBilet" Clicked="OnCounterClicked2"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10"  BackgroundColor="LightGray" WidthRequest="1000" HeightRequest="100">
+                <Image WidthRequest="60" Margin="10,0,0,0" HeightRequest="90" Aspect="AspectFill" Source="zdj3.png">
+
+                </Image>
+                <VerticalStackLayout  >
+                    <Label Padding="0,30,0,0" WidthRequest="200" HeightRequest="50" FontSize="17" Text="TERRIFIER"></Label>
+                    <Label Padding="0,0,0,0" WidthRequest="200" HeightRequest="50">HORROR Nie dla dzieci</Label>
+                </VerticalStackLayout>
+
+                <Label WidthRequest="100" BackgroundColor="DarkRed" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White" HeightRequest="50">PREMIERA</Label>
+                <Label BackgroundColor="Gray" TextColor="White" Margin="100,0,0,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="100" HeightRequest="50">23:30-01:20</Label>
+                <Button  HeightRequest="40" WidthRequest="100" Margin="100,0,0,0" Text="KupBilet" Clicked="OnCounterClicked"></Button>
+                <Button  HeightRequest="40" WidthRequest="100" Margin="100,0,0,0" Text="UsunBilet" Clicked="OnCounterClicked2"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10"  BackgroundColor="LightGray" WidthRequest="1000" HeightRequest="100">
+                <Image WidthRequest="60" Margin="10,0,0,0" HeightRequest="90" Aspect="AspectFill" Source="zdj4.png">
+
+                </Image>
+                <VerticalStackLayout  >
+                    <Label Padding="0,30,0,0" WidthRequest="200" HeightRequest="50" FontSize="17" Text="TO"></Label>
+                    <Label Padding="0,0,0,0" WidthRequest="200" HeightRequest="50">HORROR | KLASYK</Label>
+                </VerticalStackLayout>
+
+                <Label WidthRequest="100" BackgroundColor="DarkRed" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White" HeightRequest="50">PREMIERA</Label>
+                <Label BackgroundColor="Gray" TextColor="White" Margin="100,0,0,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="100" HeightRequest="50">17:30-19:20</Label>
+                <Button  HeightRequest="40" WidthRequest="100" Margin="100,0,0,0" Text="KupBilet" Clicked="OnCounterClicked"></Button>
+                <Button  HeightRequest="40" WidthRequest="100" Margin="100,0,0,0" Text="UsunBilet" Clicked="OnCounterClicked2"/>
+            </HorizontalStackLayout>
+
+
+
+        </VerticalStackLayout>
+
+        <Label x:Name="Koszyk" WidthRequest="150" Margin="0,7,0,0" HeightRequest="50" Background="Green" TextColor="white" HorizontalTextAlignment="Start" Padding="15" VerticalTextAlignment="Center" Text="Koszyk: ">
+            
+        </Label>    
+    </FlexLayout>
+    
+    
+      
+
+</ContentPage>
